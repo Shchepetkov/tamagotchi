@@ -26,12 +26,6 @@
 ### Инструкции по эксплуатации
 
     При первом запуске откроется окно как на картинке ниже.
-    
-![Image alt](https://github.com/Shchepetkov/tamagotchi/raw/main/View_done_image_game/Select.png)
-
-
-![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
-
 ![Начало](View_done_image_game/Begin.png)
 
 #№ВНИМАНИЕ вся анимация есть только у plaer1 при выборе другого персонажа анимация не полная
