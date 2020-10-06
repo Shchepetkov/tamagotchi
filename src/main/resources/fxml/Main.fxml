@@ -25,14 +25,14 @@
         <GridPane.margin>
             <Insets left="25.0" />
         </GridPane.margin>
-        <Image fx:id="im1" url="@/image/iu2.png" />
+        <Image fx:id="im1" url="@/image/player3/stat.png" />
     </ImageView>
 
     <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
         <GridPane.margin>
             <Insets left="25.0" />
         </GridPane.margin>
-        <Image fx:id="im2" url="@/image/iu3.png" />
+        <Image fx:id="im2" url="@/image/player2/stat.png" />
     </ImageView>
 
     <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">

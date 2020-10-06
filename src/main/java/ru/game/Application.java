@@ -6,6 +6,10 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import ru.game.Interfaces.SceneListener;
 
+/**
+ * @author Shchepetkov
+ */
+
 public class Application extends javafx.application.Application
     {
         private String pathToFxml = "/fxml/Begin.fxml";
