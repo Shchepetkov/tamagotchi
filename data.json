@@ -1,5 +1,5 @@
 {
-    "name": "",
-    "time_of_birth_and_nutrition": "",
-    "imageRef": ""
+    "name": "player1",
+    "time_of_birth_and_nutrition": 64525,
+    "imageRef": "file:/Users/maksimsepetkov/Downloads/tamagochi/target/classes/image/player1/stat.png"
 }

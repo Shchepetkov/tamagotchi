@@ -183,6 +183,7 @@ public class GameController extends BaseController
                 threadMinusBarInterrupt(); // Поток минус завершен
 
                 mainImage.setImage(new Image(imageLinkEditing("/eat.gif")));
+                feed.setDisable(true);
                     threadEat = new Thread(() ->
                         {
                             try
@@ -208,6 +209,7 @@ public class GameController extends BaseController
                                                                         mainImage.setImage(new Image(imageLinkEditing("/Walk.gif")));
                                                                         threadEatInterrupt();
                                                                         minusProgressBarAndDeathInGame();
+                                                                        feed.setDisable(false);
                                                                     }
                                                             }
                                                         catch (IOException | ParseException e) { e.printStackTrace(); }
