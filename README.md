@@ -24,16 +24,18 @@
 ---
 
 ### Инструкции по эксплуатации
+
     При первом запуске откроется окно как на картинке ниже.
-[![Начало](View done image game/Begin.png)
+    
+[![Начало](View done image game/Begin.png)]
 
 #ВНИМАНИЕ вся анимация есть только у plaer1 при выборе другого персонажа анимация не полная
 
     Кнопкой старт можно перейти к выбору персонажа 
-[![Выбор персонажа](View done image game/Select.png)
+[![Выбор персонажа](View done image game/Select.png)]
 
     После выбора персонажа нужно будет нажать на кнопку start
-[![Старт](View done image game/Start.png)]
+[![Старт](View done image game/Start.png)]()
 
     Если персонаж ранее не создавался то первый старт будет рождение
 [![Рождение](View done image game/Birth.png)]
