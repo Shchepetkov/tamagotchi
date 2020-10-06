@@ -20,6 +20,7 @@
     [git-scm.com](https://git-scm.com/book/ru/v2/Введение-Установка-Git)
     Находясь в созданной дирректории командой `git clone https://github.com/Shchepetkov/tamagotchi.git` клонируем проект
     далее заходим в IDE и открываем этот проект, запустить приложение можно будет в классе Application
+    
 ---
 
 ### Инструкции по эксплуатации
