@@ -33,7 +33,7 @@ public class Application extends javafx.application.Application
 
                     primaryStage.setScene(scene);
                     primaryStage.setOnCloseRequest(t -> System.exit(0));
-                    primaryStage.setTitle("Select Personage");
+                    primaryStage.setTitle("Game");
                     primaryStage.show();
                     stage = primaryStage;
                 }
