@@ -27,33 +27,38 @@
 
     При первом запуске откроется окно как на картинке ниже.
     
-![Начало](View done image game/Begin.png)
+![Image alt](https://github.com/Shchepetkov/tamagotchi/raw/main/View_done_image_game/Select.png)
 
-#ВНИМАНИЕ вся анимация есть только у plaer1 при выборе другого персонажа анимация не полная
+
+![Иллюстрация к проекту](https://github.com/jon/coolproject/raw/master/image/image.png)
+
+![Начало](View_done_image_game/Begin.png)
+
+#№ВНИМАНИЕ вся анимация есть только у plaer1 при выборе другого персонажа анимация не полная
 
     Кнопкой старт можно перейти к выбору персонажа 
-![Выбор персонажа](View done image game/Select.png)
+![Выбор персонажа](View_done_image_game/Select.png)
 
     После выбора персонажа нужно будет нажать на кнопку start
-[![Старт](View done image game/Start.png)]()
+[![Старт](View_done_image_game/Start.png)]()
 
     Если персонаж ранее не создавался то первый старт будет рождение
-[![Рождение](View done image game/Birth.png)]
+[![Рождение](View_done_image_game/Birth.png)]
 
     Если персонаж был ранее создан откроется другая анимация
-[![Прогулка](View done image game/Walk.png)]()
+[![Прогулка](View_done_image_game/Walk.png)]()
 
     В игровом окне есть кнопку накормить при нажатии на неё
-[![Кушает](View done image game/Eat.png)]()
+[![Кушает](View_done_image_game/Eat.png)]()
 
     Если персонажа покормить 3 раза он испачкается
-[![Испачкался](View done image game/Dirty.png)]()
+[![Испачкался](View_done_image_game/Dirty.png)]()
 
     После чего его нужно помыть
-[![Купается](View done image game/Wash.png)]()
+[![Купается](View_done_image_game/Wash.png)]()
 
     Последняя анимация это смерть
-[![Умирает](View done image game/Death.png)]()
+[![Умирает](View_done_image_game/Death.png)]()
 
     
 ---
