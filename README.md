@@ -24,7 +24,7 @@
 ---
 
 ### Инструкции по эксплуатации
-####ВНИМАНИЕ вся анимация есть только у plaer1 при выборе другого персонажа анимация не полная
+###ВНИМАНИЕ вся анимация есть только у plaer1 при выборе другого персонажа анимация не полная
 
     При первом запуске откроется окно как на картинке ниже.
 ![Начало](View_done_image_game/Begin.png)
@@ -33,25 +33,25 @@
 ![Выбор персонажа](View_done_image_game/Select.png)
 
     После выбора персонажа нужно будет нажать на кнопку start
-[![Старт](View_done_image_game/Start.png)]()
+![Старт](View_done_image_game/Start.png)
 
     Если персонаж ранее не создавался то первый старт будет рождение
-[![Рождение](View_done_image_game/Birth.png)]
+![Рождение](View_done_image_game/Birth.png)
 
     Если персонаж был ранее создан откроется другая анимация
-[![Прогулка](View_done_image_game/Walk.png)]()
+![Прогулка](View_done_image_game/Walk.png)
 
     В игровом окне есть кнопку накормить при нажатии на неё
-[![Кушает](View_done_image_game/Eat.png)]()
+![Кушает](View_done_image_game/Eat.png)
 
     Если персонажа покормить 3 раза он испачкается
-[![Испачкался](View_done_image_game/Dirty.png)]()
+![Испачкался](View_done_image_game/Dirty.png)
 
     После чего его нужно помыть
-[![Купается](View_done_image_game/Wash.png)]()
+![Купается](View_done_image_game/Wash.png)
 
     Последняя анимация это смерть
-[![Умирает](View_done_image_game/Death.png)]()
+![Умирает](View_done_image_game/Death.png)
 
     
 ---
