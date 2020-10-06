@@ -26,15 +26,12 @@ public class PersonageSelect implements PersonWritable
         public int newDataFormat() // получение реального времени в секундах
             {
                 String[] arr;
-                DateFormat dateF = new SimpleDateFormat("HH:mm:ss");
+                DateFormat dateF = new SimpleDateFormat("DD:HH:mm:ss");
                 Calendar cal = Calendar.getInstance();
                 String time = dateF.format(cal.getTime());
 
-                    if (time.matches("(\\d+):(\\d+):(\\d+)"))
-                        {
-                            arr=time.split(":");
-                            time_of_birth_and_nutrition = Integer.parseInt(arr[0])*3600 + Integer.parseInt(arr[1])*60 + Integer.parseInt(arr[2]);
-                        }
+                arr=time.split(":");
+                time_of_birth_and_nutrition = Integer.parseInt(arr[0]) * 86400 + Integer.parseInt(arr[1])*3600 + Integer.parseInt(arr[2]) * 60 + Integer.parseInt(arr[3]);
 
                     return time_of_birth_and_nutrition;
             }
@@ -55,3 +52,19 @@ public class PersonageSelect implements PersonWritable
             }
 
     }
+
+//    public int newDataFormat() // получение реального времени в секундах
+//    {
+//        String[] arr;
+//        DateFormat dateF = new SimpleDateFormat("HH:mm:ss");
+//        Calendar cal = Calendar.getInstance();
+//        String time = dateF.format(cal.getTime());
+//
+//        if (time.matches("(\\d+):(\\d+):(\\d+)"))
+//        {
+//            arr=time.split(":");
+//            time_of_birth_and_nutrition = Integer.parseInt(arr[0])*3600 + Integer.parseInt(arr[1])*60 + Integer.parseInt(arr[2]);
+//        }
+//
+//        return time_of_birth_and_nutrition;
+//    }

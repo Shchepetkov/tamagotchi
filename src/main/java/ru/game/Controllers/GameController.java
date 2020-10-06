@@ -130,6 +130,7 @@ public class GameController extends BaseController
                     timeline.setCycleCount(1);
                     timeline.play();
             }
+
         @FXML
         private void threadEatInterrupt()
             {
