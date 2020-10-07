@@ -30,7 +30,7 @@ public class StartGameController extends BaseController
                     {
                         PersonageBuilder builder = new PersonageBuilder(image);
                         WorkWithJson.writeDataToJsonFile("data.json", builder.build(personageName));
-                        builder.GetSelected();
+                        builder.getSelected();
                         startUp();
                     }
             }

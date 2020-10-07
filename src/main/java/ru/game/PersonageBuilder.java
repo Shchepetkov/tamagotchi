@@ -18,12 +18,12 @@ public class PersonageBuilder
                     if (pers == null)
                         {
                             pers = new PersonageSelect(name);
-                            pers.setImageRef(GetSelected());
+                            pers.setImageRef(getSelected());
                         }
                     return pers;
                 }
 
-         public String GetSelected()
+         public String getSelected()
              {
                 return String.valueOf(select.get(0).impl_getUrl());
              }
