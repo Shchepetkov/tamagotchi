@@ -8,62 +8,69 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.game.Controllers.StartGameController">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+          prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="ru.game.Controllers.StartGameController">
     <columnConstraints>
-        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
-        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0"/>
     </columnConstraints>
 
     <rowConstraints>
-      <RowConstraints maxHeight="346.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="348.0" minHeight="10.0" prefHeight="340.0" vgrow="SOMETIMES" />
-        <RowConstraints maxHeight="196.0" minHeight="10.0" prefHeight="57.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="346.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES"/>
+        <RowConstraints maxHeight="348.0" minHeight="10.0" prefHeight="340.0" vgrow="SOMETIMES"/>
+        <RowConstraints maxHeight="196.0" minHeight="10.0" prefHeight="57.0" vgrow="SOMETIMES"/>
     </rowConstraints>
 
-    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1"
+               GridPane.rowIndex="1">
         <GridPane.margin>
-            <Insets left="25.0" />
+            <Insets left="25.0"/>
         </GridPane.margin>
-        <Image fx:id="im1" url="@/image/player3/stat.png" />
+        <Image fx:id="im1" url="@/image/player3/stat.png"/>
     </ImageView>
 
-    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2"
+               GridPane.rowIndex="1">
         <GridPane.margin>
-            <Insets left="25.0" />
+            <Insets left="25.0"/>
         </GridPane.margin>
-        <Image fx:id="im2" url="@/image/player2/stat.png" />
+        <Image fx:id="im2" url="@/image/player2/stat.png"/>
     </ImageView>
 
     <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
         <GridPane.margin>
-            <Insets left="25.0" />
+            <Insets left="25.0"/>
         </GridPane.margin>
-        <Image fx:id="im3" url="@/image/player1/stat.png" />
+        <Image fx:id="im3" url="@/image/player1/stat.png"/>
     </ImageView>
 
-    <Button fx:id="bt1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#bt1" text="person 1" textAlignment="CENTER" GridPane.rowIndex="2">
+    <Button fx:id="bt1" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#bt1"
+            text="person 1" textAlignment="CENTER" GridPane.rowIndex="2">
         <GridPane.margin>
-          <Insets left="70.0" />
+            <Insets left="70.0"/>
         </GridPane.margin>
     </Button>
 
-    <Button fx:id="bt2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#bt2" text="person 2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+    <Button fx:id="bt2" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#bt2"
+            text="person 2" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
         <GridPane.margin>
-          <Insets left="70.0" />
+            <Insets left="70.0"/>
         </GridPane.margin>
     </Button>
 
-    <Button fx:id="bt3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#bt3" text="person 3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+    <Button fx:id="bt3" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#bt3"
+            text="person 3" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
         <GridPane.margin>
-          <Insets left="70.0" />
+            <Insets left="70.0"/>
         </GridPane.margin>
     </Button>
 
-   <Button fx:id="start" onAction="#start" mnemonicParsing="false" text="start" GridPane.columnIndex="1">
-      <GridPane.margin>
-         <Insets left="80.0" />
-      </GridPane.margin>
-   </Button>
+    <Button fx:id="start" onAction="#start" mnemonicParsing="false" text="start" GridPane.columnIndex="1">
+        <GridPane.margin>
+            <Insets left="80.0"/>
+        </GridPane.margin>
+    </Button>
 
 </GridPane>

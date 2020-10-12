@@ -6,6 +6,8 @@ import java.io.IOException;
 
 public interface SceneListener {
     String changeScene();
+
     String getImage() throws IOException, ParseException;
+
     long getTime() throws IOException, ParseException;
 }
